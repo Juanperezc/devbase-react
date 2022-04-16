@@ -5,7 +5,7 @@ class UserService {
    *
    */
   static index() {
-    return axios.get(process.env.REACT_APP_DOMAIN + "/users?page=1&per_page=5");
+    return axios.get(process.env.REACT_APP_DOMAIN + "/users?page=1&per_page=5&q=contributions&order=desc");
   }
   /**
    *

@@ -1,7 +1,8 @@
 
 import NavBar from "../components/NavBar";
 import UserList from "../components/UserList";
-function Home() {
+
+function HomePage() {
   return (
     <>
       <NavBar isBack={false}/>
@@ -10,4 +11,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
